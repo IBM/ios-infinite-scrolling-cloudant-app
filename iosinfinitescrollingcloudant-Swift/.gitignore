@@ -1,0 +1,9 @@
+.DS_Store
+Build/
+xcuserdata/
+DerivedData/
+Pods/
+iosinfinitescrollingcloudant.xcworkspace/
+Podfile.lock
+iosinfinitescrollingcloudant-Swift/iosinfinitescrollingcloudant/BMSCredentials.plist
+ios_swift/iosinfinitescrollingcloudant/BMSCredentials.plist

@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B04FF4CD8E9F40BDB8C9FCD3 /* .gitignore in Sources */ = {isa = PBXBuildFile; fileRef = 1C07CC2DE1794E518075434E /* .gitignore */; };
+		55347033D63E49D6A6986B91 /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = 0A10469A03E84EBCB9E86B75 /* LICENSE */; };
+		1F9946F22C484EA4A7665B19 /* BMSCredentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF6A2C8C18A1466697FD0ABC /* BMSCredentials.plist */; };
+		5E6E385786F79373B9B58FBF /* Pods_iosinfinitescrollingcloudant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1C5BE4A773D6293E096406 /* Pods_iosinfinitescrollingcloudant.framework */; };
+		98EE2C391DABCCBD00B954F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EE2C381DABCCBD00B954F9 /* AppDelegate.swift */; };
+		98EE2C4A1DABCCD100B954F9 /* CloudantItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EE2C401DABCCD100B954F9 /* CloudantItem.swift */; };
+		98EE2C4B1DABCCD100B954F9 /* CloudantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EE2C411DABCCD100B954F9 /* CloudantTableViewCell.swift */; };
+		98EE2C4D1DABCCD100B954F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EE2C431DABCCD100B954F9 /* ViewController.swift */; };
+		98EE2C531DABCD9E00B954F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98EE2C521DABCD9E00B954F9 /* Assets.xcassets */; };
+		98EE2C5E1DABE64A00B954F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EE2C5C1DABE64A00B954F9 /* LaunchScreen.storyboard */; };
+		98EE2C611DABE70400B954F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EE2C5F1DABE70400B954F9 /* Main.storyboard */; };
+		AC30331A1E38020600D43D5B /* ApplicationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3033191E38020600D43D5B /* ApplicationError.swift */; };
+		E3659B402034C21900601F81 /* iosinfinitescrollingcloudantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3659B3F2034C21900601F81 /* iosinfinitescrollingcloudantUITests.swift */; };
+		E3659B4E2034C22500601F81 /* iosinfinitescrollingcloudantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3659B4D2034C22500601F81 /* iosinfinitescrollingcloudantTests.swift */; };
+		E3D187F0202CB90100E41D1D /* CloudantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D187EF202CB90100E41D1D /* CloudantViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3659B422034C21900601F81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 555C91A01D0F0731003E84E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 555C91A71D0F0731003E84E3;
+			remoteInfo = "iosinfinitescrollingcloudant";
+		};
+		E3659B502034C22500601F81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 555C91A01D0F0731003E84E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 555C91A71D0F0731003E84E3;
+			remoteInfo = "iosinfinitescrollingcloudant";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C07CC2DE1794E518075434E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = .gitignore; path = .gitignore; sourceTree = "<group>"; };
+		0A10469A03E84EBCB9E86B75 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LICENSE; path = LICENSE; sourceTree = "<group>"; };
+		BF6A2C8C18A1466697FD0ABC /* BMSCredentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = BMSCredentials.plist; path = BMSCredentials.plist; sourceTree = "<group>"; };
+		1AFE8C0E5B5FC41FBA4B5EC2 /* Pods-iosinfinitescrollingcloudant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosinfinitescrollingcloudant.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosinfinitescrollingcloudant/Pods-iosinfinitescrollingcloudant.debug.xcconfig"; sourceTree = "<group>"; };
+		555C91A81D0F0731003E84E3 /* iosinfinitescrollingcloudant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iosinfinitescrollingcloudant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98EE2C381DABCCBD00B954F9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "iosinfinitescrollingcloudant/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
+		98EE2C401DABCCD100B954F9 /* CloudantItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CloudantItem.swift; path = "iosinfinitescrollingcloudant/CloudantItem.swift"; sourceTree = SOURCE_ROOT; };
+		98EE2C411DABCCD100B954F9 /* CloudantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CloudantTableViewCell.swift; path = "iosinfinitescrollingcloudant/CloudantTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		98EE2C421DABCCD100B954F9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "iosinfinitescrollingcloudant/Info.plist"; sourceTree = SOURCE_ROOT; };
+		98EE2C431DABCCD100B954F9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "iosinfinitescrollingcloudant/ViewController.swift"; sourceTree = SOURCE_ROOT; };
+		98EE2C521DABCD9E00B954F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "iosinfinitescrollingcloudant/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		98EE2C5D1DABE64A00B954F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "iosinfinitescrollingcloudant/Base.lproj/LaunchScreen.storyboard"; sourceTree = SOURCE_ROOT; };
+		98EE2C601DABE70400B954F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "iosinfinitescrollingcloudant/Base.lproj/Main.storyboard"; sourceTree = SOURCE_ROOT; };
+		AC3033191E38020600D43D5B /* ApplicationError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationError.swift; sourceTree = "<group>"; };
+		D08B9A7496D4B743BDD8AACD /* Pods-iosinfinitescrollingcloudant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosinfinitescrollingcloudant.release.xcconfig"; path = "Pods/Target Support Files/Pods-iosinfinitescrollingcloudant/Pods-iosinfinitescrollingcloudant.release.xcconfig"; sourceTree = "<group>"; };
+		E3659B3D2034C21900601F81 /* iosinfinitescrollingcloudantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iosinfinitescrollingcloudantUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3659B3F2034C21900601F81 /* iosinfinitescrollingcloudantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosinfinitescrollingcloudantUITests.swift; sourceTree = "<group>"; };
+		E3659B412034C21900601F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3659B4B2034C22400601F81 /* iosinfinitescrollingcloudantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iosinfinitescrollingcloudantTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3659B4D2034C22500601F81 /* iosinfinitescrollingcloudantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosinfinitescrollingcloudantTests.swift; sourceTree = "<group>"; };
+		E3659B4F2034C22500601F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3D187EF202CB90100E41D1D /* CloudantViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudantViewModel.swift; sourceTree = "<group>"; };
+		FA1C5BE4A773D6293E096406 /* Pods_iosinfinitescrollingcloudant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosinfinitescrollingcloudant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		555C91A51D0F0731003E84E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E6E385786F79373B9B58FBF /* Pods_iosinfinitescrollingcloudant.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3659B3A2034C21900601F81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3659B482034C22400601F81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		545C9DD4D3D79A706E9BC9CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA1C5BE4A773D6293E096406 /* Pods_iosinfinitescrollingcloudant.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		555C919F1D0F0731003E84E3 = {
+			isa = PBXGroup;
+			children = (
+				555C91AA1D0F0731003E84E3 /* iosinfinitescrollingcloudant */,
+				E3659B3E2034C21900601F81 /* iosinfinitescrollingcloudantUITests */,
+				E3659B4C2034C22500601F81 /* iosinfinitescrollingcloudantTests */,
+				555C91A91D0F0731003E84E3 /* Products */,
+				A4160B77D037FA5B9F790955 /* Pods */,
+				545C9DD4D3D79A706E9BC9CE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		555C91A91D0F0731003E84E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				555C91A81D0F0731003E84E3 /* iosinfinitescrollingcloudant.app */,
+				E3659B3D2034C21900601F81 /* iosinfinitescrollingcloudantUITests.xctest */,
+				E3659B4B2034C22400601F81 /* iosinfinitescrollingcloudantTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		555C91AA1D0F0731003E84E3 /* iosinfinitescrollingcloudant */ = {
+			isa = PBXGroup;
+			children = (
+				BF6A2C8C18A1466697FD0ABC /* BMSCredentials.plist */,
+				E3D187EF202CB90100E41D1D /* CloudantViewModel.swift */,
+				98EE2C381DABCCBD00B954F9 /* AppDelegate.swift */,
+				98EE2C5C1DABE64A00B954F9 /* LaunchScreen.storyboard */,
+				98EE2C5F1DABE70400B954F9 /* Main.storyboard */,
+				AC3033191E38020600D43D5B /* ApplicationError.swift */,
+				98EE2C401DABCCD100B954F9 /* CloudantItem.swift */,
+				98EE2C411DABCCD100B954F9 /* CloudantTableViewCell.swift */,
+				98EE2C521DABCD9E00B954F9 /* Assets.xcassets */,
+				98EE2C421DABCCD100B954F9 /* Info.plist */,
+				98EE2C431DABCCD100B954F9 /* ViewController.swift */,
+			);
+			path = "iosinfinitescrollingcloudant";
+			sourceTree = "<group>";
+		};
+		A4160B77D037FA5B9F790955 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AFE8C0E5B5FC41FBA4B5EC2 /* Pods-iosinfinitescrollingcloudant.debug.xcconfig */,
+				D08B9A7496D4B743BDD8AACD /* Pods-iosinfinitescrollingcloudant.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E3659B3E2034C21900601F81 /* iosinfinitescrollingcloudantUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E3659B3F2034C21900601F81 /* iosinfinitescrollingcloudantUITests.swift */,
+				E3659B412034C21900601F81 /* Info.plist */,
+			);
+			path = "iosinfinitescrollingcloudantUITests";
+			sourceTree = "<group>";
+		};
+		E3659B4C2034C22500601F81 /* iosinfinitescrollingcloudantTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3659B4D2034C22500601F81 /* iosinfinitescrollingcloudantTests.swift */,
+				E3659B4F2034C22500601F81 /* Info.plist */,
+			);
+			path = "iosinfinitescrollingcloudantTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		555C91A71D0F0731003E84E3 /* iosinfinitescrollingcloudant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555C91D01D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "iosinfinitescrollingcloudant" */;
+			buildPhases = (
+				E48551C04942F6AAA79A91F5 /* [CP] Check Pods Manifest.lock */,
+				555C91A41D0F0731003E84E3 /* Sources */,
+				555C91A51D0F0731003E84E3 /* Frameworks */,
+				555C91A61D0F0731003E84E3 /* Resources */,
+				7A8D7333F6565346A25DF969 /* [CP] Embed Pods Frameworks */,
+				410ABB49FD048590F6C8D98F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iosinfinitescrollingcloudant";
+			productName = "iosinfinitescrollingcloudant";
+			productReference = 555C91A81D0F0731003E84E3 /* iosinfinitescrollingcloudant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3659B3C2034C21900601F81 /* iosinfinitescrollingcloudantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3659B442034C21900601F81 /* Build configuration list for PBXNativeTarget "iosinfinitescrollingcloudantUITests" */;
+			buildPhases = (
+				E3659B392034C21900601F81 /* Sources */,
+				E3659B3A2034C21900601F81 /* Frameworks */,
+				E3659B3B2034C21900601F81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3659B432034C21900601F81 /* PBXTargetDependency */,
+			);
+			name = "iosinfinitescrollingcloudantUITests";
+			productName = "iosinfinitescrollingcloudantUITests";
+			productReference = E3659B3D2034C21900601F81 /* iosinfinitescrollingcloudantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E3659B4A2034C22400601F81 /* iosinfinitescrollingcloudantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3659B522034C22500601F81 /* Build configuration list for PBXNativeTarget "iosinfinitescrollingcloudantTests" */;
+			buildPhases = (
+				E3659B472034C22400601F81 /* Sources */,
+				E3659B482034C22400601F81 /* Frameworks */,
+				E3659B492034C22400601F81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3659B512034C22500601F81 /* PBXTargetDependency */,
+			);
+			name = "iosinfinitescrollingcloudantTests";
+			productName = "iosinfinitescrollingcloudantTests";
+			productReference = E3659B4B2034C22400601F81 /* iosinfinitescrollingcloudantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		555C91A01D0F0731003E84E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = IBM;
+				TargetAttributes = {
+					555C91A71D0F0731003E84E3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0920;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					E3659B3C2034C21900601F81 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 555C91A71D0F0731003E84E3;
+					};
+					E3659B4A2034C22400601F81 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 555C91A71D0F0731003E84E3;
+					};
+				};
+			};
+			buildConfigurationList = 555C91A31D0F0731003E84E3 /* Build configuration list for PBXProject "iosinfinitescrollingcloudant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 555C919F1D0F0731003E84E3;
+			productRefGroup = 555C91A91D0F0731003E84E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				555C91A71D0F0731003E84E3 /* iosinfinitescrollingcloudant */,
+				E3659B3C2034C21900601F81 /* iosinfinitescrollingcloudantUITests */,
+				E3659B4A2034C22400601F81 /* iosinfinitescrollingcloudantTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		555C91A61D0F0731003E84E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9946F22C484EA4A7665B19 /* BMSCredentials.plist in Resources */,
+				98EE2C611DABE70400B954F9 /* Main.storyboard in Resources */,
+				98EE2C531DABCD9E00B954F9 /* Assets.xcassets in Resources */,
+				98EE2C5E1DABE64A00B954F9 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3659B3B2034C21900601F81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3659B492034C22400601F81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		410ABB49FD048590F6C8D98F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iosinfinitescrollingcloudant/Pods-iosinfinitescrollingcloudant-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A8D7333F6565346A25DF969 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iosinfinitescrollingcloudant/Pods-iosinfinitescrollingcloudant-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BMSAnalyticsAPI/BMSAnalyticsAPI.framework",
+				"${BUILT_PRODUCTS_DIR}/BMSCore/BMSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSpinner/SwiftSpinner.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMSAnalyticsAPI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSpinner.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iosinfinitescrollingcloudant/Pods-iosinfinitescrollingcloudant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E48551C04942F6AAA79A91F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iosinfinitescrollingcloudant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		555C91A41D0F0731003E84E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D187F0202CB90100E41D1D /* CloudantViewModel.swift in Sources */,
+				AC30331A1E38020600D43D5B /* ApplicationError.swift in Sources */,
+				98EE2C4A1DABCCD100B954F9 /* CloudantItem.swift in Sources */,
+				98EE2C4B1DABCCD100B954F9 /* CloudantTableViewCell.swift in Sources */,
+				98EE2C4D1DABCCD100B954F9 /* ViewController.swift in Sources */,
+				98EE2C391DABCCBD00B954F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3659B392034C21900601F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3659B402034C21900601F81 /* iosinfinitescrollingcloudantUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3659B472034C22400601F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3659B4E2034C22500601F81 /* iosinfinitescrollingcloudantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3659B432034C21900601F81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 555C91A71D0F0731003E84E3 /* iosinfinitescrollingcloudant */;
+			targetProxy = E3659B422034C21900601F81 /* PBXContainerItemProxy */;
+		};
+		E3659B512034C22500601F81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 555C91A71D0F0731003E84E3 /* iosinfinitescrollingcloudant */;
+			targetProxy = E3659B502034C22500601F81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98EE2C5C1DABE64A00B954F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98EE2C5D1DABE64A00B954F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		98EE2C5F1DABE70400B954F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98EE2C601DABE70400B954F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		555C91CE1D0F0731003E84E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = Cloudant;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		555C91CF1D0F0731003E84E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Cloudant;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		555C91D11D0F0731003E84E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AFE8C0E5B5FC41FBA4B5EC2 /* Pods-iosinfinitescrollingcloudant.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/iosinfinitescrollingcloudant/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.iosinfinitescrollingcloudant";
+				PRODUCT_NAME = "iosinfinitescrollingcloudant";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		555C91D21D0F0731003E84E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D08B9A7496D4B743BDD8AACD /* Pods-iosinfinitescrollingcloudant.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/iosinfinitescrollingcloudant/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.iosinfinitescrollingcloudant";
+				PRODUCT_NAME = "iosinfinitescrollingcloudant";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		E3659B452034C21900601F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "iosinfinitescrollingcloudantUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.BluePic-iOS.iosinfinitescrollingcloudantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iosinfinitescrollingcloudant";
+			};
+			name = Debug;
+		};
+		E3659B462034C21900601F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "iosinfinitescrollingcloudantUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.BluePic-iOS.iosinfinitescrollingcloudantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iosinfinitescrollingcloudant";
+			};
+			name = Release;
+		};
+		E3659B532034C22500601F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "iosinfinitescrollingcloudantTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.BluePic-iOS.iosinfinitescrollingcloudantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iosinfinitescrollingcloudant.app/iosinfinitescrollingcloudant";
+			};
+			name = Debug;
+		};
+		E3659B542034C22500601F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "iosinfinitescrollingcloudantTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.BluePic-iOS.iosinfinitescrollingcloudantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iosinfinitescrollingcloudant.app/iosinfinitescrollingcloudant";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		555C91A31D0F0731003E84E3 /* Build configuration list for PBXProject "iosinfinitescrollingcloudant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555C91CE1D0F0731003E84E3 /* Debug */,
+				555C91CF1D0F0731003E84E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555C91D01D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "iosinfinitescrollingcloudant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555C91D11D0F0731003E84E3 /* Debug */,
+				555C91D21D0F0731003E84E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3659B442034C21900601F81 /* Build configuration list for PBXNativeTarget "iosinfinitescrollingcloudantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3659B452034C21900601F81 /* Debug */,
+				E3659B462034C21900601F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3659B522034C22500601F81 /* Build configuration list for PBXNativeTarget "iosinfinitescrollingcloudantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3659B532034C22500601F81 /* Debug */,
+				E3659B542034C22500601F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 555C91A01D0F0731003E84E3 /* Project object */;
+}
