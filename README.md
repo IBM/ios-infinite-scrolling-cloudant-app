@@ -56,7 +56,6 @@ $ pod update
 $ pod install
 ```
 
-
 * Open the Xcode workspace: `{APP_Name}.xcworkspace`.
 * No additional configuration is required for the iOS app. Your unique Cloudant credentials have been injected in during generation. The application will default to the first database and field it finds, so be sure to import valid data.
 
