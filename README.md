@@ -1,6 +1,7 @@
 <img src="https://bluemixassets.eu-gb.mybluemix.net/api/Products/image/logos/cloudant.svg?key=[starter-cloudant]&event=readme-image-view" alt="Cloudant Logo" width="200px"/>
 
-## Cloudant Infinite Scroll
+# Create an infinite scrolling iOS application in Swift, backed by a NoSQL database
+
 IBM Cloud Mobile Starter for Cloudant Infinite Scroll in Swift
 
 [![](https://img.shields.io/badge/bluemix-powered-blue.svg)](https://bluemix.net)
