@@ -1,8 +1,8 @@
+[![](https://img.shields.io/badge/bluemix-powered-blue.svg)](https://bluemix.net)
+
 # Create an infinite scrolling iOS application in Swift, backed by a NoSQL database
 
 The IBM Cloud Mobile Starter for Cloudant Infinite Scroll showcases how to display data using an infinitely scrolling list.
-
-[![](https://img.shields.io/badge/bluemix-powered-blue.svg)](https://bluemix.net)
 
 ## Requirements
 
