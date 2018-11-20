@@ -10,11 +10,6 @@ The IBM Cloud Mobile Starter for Cloudant Infinite Scroll showcases how to displ
 * Xcode 9.0
 * Swift 4.0
 
-## Configuration
-
-* [IBM Cloud Mobile services and Cloudant Dependency Mangagement](#bluemix-mobile-services-and-Cloudant-dependency-management)
-* [Cloudant Credential Management](#Cloudant-credential-management)
-
 ## IBM Cloud Mobile services and Cloudant Dependency Management
 
 This starter uses the IBM Cloud Mobile services and Cloudant SDKs in order to use the functionality of the Mobile Analytics, Push Notifications, and Cloudant services.
@@ -52,7 +47,7 @@ pod install
 * Open the Xcode workspace: `{APP_Name}.xcworkspace`.
 * No additional configuration is required for the iOS app. Your unique Cloudant credentials have been injected in during generation. The application will default to the first database and field it finds, so be sure to import valid data.
 
-### Importing a Database (Optional)
+## Importing a Database (Optional)
 
 If you would like to import a sample database to help demonstrate the infinite scroll capability, navigate to project root and run the `testcloudant.sh` script.
 
