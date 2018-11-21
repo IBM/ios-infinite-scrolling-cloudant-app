@@ -15,8 +15,9 @@ When you have completed this code pattern, you will understand how to:
 
 1. [Install developer tools](#1-install-developer-tools)
 2. [Install dependencies](#2-install-dependencies)
-3. [Load sample data](#3-load-sample-data)
-4. [Run in Xcode](#4-run-in-xcode)
+3. [Create a Cloudant service instance](#3-create-a-cloudant-service-instance)
+4. [Load sample data](#3-load-sample-data)
+5. [Run in Xcode](#4-run-in-xcode)
 
 ### 1. Install developer tools
 
@@ -62,9 +63,13 @@ pod install
 
 Finally, open the Xcode workspace: `{APP_Name}.xcworkspace`.
 
-No additional configuration is required for the iOS app. Your unique Cloudant credentials have been injected in during generation. The application will default to the first database and field it finds, so be sure to import valid data.
+### 3. Create a Cloudant service instance
 
-### 3. Load sample data
+Use the [IBM Cloud Catalog](https://console.bluemix.net/catalog/) to [create a Cloudant service instance](https://console.bluemix.net/catalog/services/cloudant) on the Lite plan.
+
+When the service has been created, navigate to the **Service credentials** tab, and create a **New credential ⊕** with the default options. Click **View credentials**. Edit `iosinfinitescrollingcloudant/BMSCredentials.plist` in your Xcode project to configure your application with your Cloudant credentials.
+
+### 4. Load sample data
 
 To help demonstrate the infinite scrolling capability, we need to load a dataset large enough to require scrolling into our NoSQL database. This repository contains a file called `countries.json` which contains 245 documents, each with the names of a country. From the root of the repository, run:
 
@@ -73,9 +78,11 @@ chmod +x setup_cloudant.sh
 sh setup_cloudant.sh
 ```
 
-### 4. Run in Xcode
+This script will use your credentials from `iosinfinitescrollingcloudant/BMSCredentials.plist` to load the data.
 
-In Xcode, click **Product** > **Run** to start the app.
+### 5. Run in Xcode
+
+In Xcode, click **Product** > **Run** to start the iOS application. The app will default to displaying the first database and field it finds.
 
 ![Cloudant App Screenshot](README_Images/cloudant.png)
 
