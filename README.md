@@ -3,7 +3,7 @@
 
 # Create an infinite scrolling iOS application in Swift, backed by a NoSQL database
 
-In this code pattern, you will create an infinite scrolling iOS application, similar to the user experience you'd find in popular apps like Twitter or Instagram. Instead of building a paginated list of data, data will be continuously pulled from a Cloudant NoSQL database. 
+In this code pattern, you will create an infinite scrolling iOS application, similar to the user experience you'd find in popular apps like Twitter or Instagram. Instead of building a paginated list of data, data will be continuously pulled from a Cloudant NoSQL database.
 
 When you have completed this code pattern, you will understand how to:
 
