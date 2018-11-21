@@ -16,6 +16,7 @@ When you have completed this code pattern, you will understand how to:
 1. [Install developer tools](#1-install-developer-tools)
 2. [Install dependencies](#2-install-dependencies)
 3. [Load sample data](#3-load-sample-data)
+4. [Run in Xcode](#4-run-in-xcode)
 
 ### 1. Install developer tools
 
@@ -72,7 +73,7 @@ chmod +x setup_cloudant.sh
 sh setup_cloudant.sh
 ```
 
-## Run
+### 4. Run in Xcode
 
 In Xcode, click **Product** > **Run** to start the app.
 
