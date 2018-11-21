@@ -7,9 +7,9 @@ In this code pattern, you will create an infinite scrolling iOS application, sim
 
 When you have completed this code pattern, you will understand how to:
 
-* provision and integrate a Cloudant NoSQL database,
-* enable infinite scrolling in the application, and
-* connect to additional IBM Cloud services.
+* Provision and integrate a Cloudant NoSQL database
+* Enable infinite scrolling in the application
+* Connect to additional IBM Cloud services
 
 ## Steps
 
