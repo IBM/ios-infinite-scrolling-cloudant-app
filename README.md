@@ -11,6 +11,8 @@ When you have completed this code pattern, you will understand how to:
 * Enable infinite scrolling in the application
 * Connect to additional IBM Cloud services
 
+![](README_Images/architecture.png)
+
 ## Steps
 
 1. [Install developer tools](#1-install-developer-tools)
