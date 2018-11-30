@@ -21,6 +21,8 @@ Deploy the application using the button above and jump directly to step 4 below.
 
 **OR**
 
+Deploy the application manually:
+
 1. [Install developer tools](#1-install-developer-tools)
 2. [Install dependencies](#2-install-dependencies)
 3. [Create a Cloudant service instance](#3-create-a-cloudant-service-instance)
