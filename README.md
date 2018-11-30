@@ -15,6 +15,10 @@ When you have completed this code pattern, you will understand how to:
 
 ## Steps
 
+[![](https://bluemix.net/deploy/button.png)](https://console.bluemix.net/developer/appledevelopment/create-project?starterKit=dc43fe0b-f441-3bcb-9c75-2764ece288ce&defaultLanguage=IOS_SWIFT&env_id=ibm%3Ayp%3Aus-south&tenantNavMode=false&defaultDeploymentToolchain=)
+
+Deploy the application using the button above and jump directly to step 4 below.
+
 1. [Install developer tools](#1-install-developer-tools)
 2. [Install dependencies](#2-install-dependencies)
 3. [Create a Cloudant service instance](#3-create-a-cloudant-service-instance)
