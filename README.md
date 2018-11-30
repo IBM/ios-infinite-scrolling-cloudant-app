@@ -26,8 +26,8 @@ Deploy the application manually:
 1. [Install developer tools](#1-install-developer-tools)
 2. [Install dependencies](#2-install-dependencies)
 3. [Create a Cloudant service instance](#3-create-a-cloudant-service-instance)
-4. [Load sample data](#3-load-sample-data)
-5. [Run in Xcode](#4-run-in-xcode)
+4. [Load sample data](#4-load-sample-data)
+5. [Run in Xcode](#5-run-in-xcode)
 
 ### 1. Install developer tools
 
