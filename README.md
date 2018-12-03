@@ -17,11 +17,11 @@ When you have completed this code pattern, you will understand how to:
 
 [![](https://bluemix.net/deploy/button.png)](https://console.bluemix.net/developer/appledevelopment/create-project?starterKit=dc43fe0b-f441-3bcb-9c75-2764ece288ce&defaultLanguage=IOS_SWIFT&env_id=ibm%3Ayp%3Aus-south&tenantNavMode=false&defaultDeploymentToolchain=)
 
-Deploy the application automatically using the button above and jump directly to step 4 below.
+Create the application and database automatically using the button above and jump directly to step 4 below.
 
 **OR**
 
-Deploy the application manually:
+Configure the local application manually:
 
 1. [Install developer tools](#1-install-developer-tools)
 2. [Install dependencies](#2-install-dependencies)
@@ -75,7 +75,7 @@ Finally, open the Xcode workspace: `{APP_Name}.xcworkspace`.
 
 ### 3. Create a Cloudant service instance
 
-Use the [IBM Cloud Catalog](https://console.bluemix.net/catalog/) to [create a Cloudant service instance](https://console.bluemix.net/catalog/services/cloudant) on the Lite plan.
+Use the [IBM Cloud Catalog](https://console.bluemix.net/catalog/) to [create a Cloudant service instance](https://console.bluemix.net/catalog/services/cloudant) on the Lite plan. Make sure to select **Use both legacy credentials and IAM** to receive the proper credential set for the Cloudant SDK.
 
 When the service has been created, navigate to the **Service credentials** tab, and create a **New credential ⊕** with the default options. Click **View credentials**. Edit `iosinfinitescrollingcloudant/BMSCredentials.plist` in your Xcode project to configure your application with your Cloudant credentials.
 
@@ -84,7 +84,6 @@ When the service has been created, navigate to the **Service credentials** tab, 
 To help demonstrate the infinite scrolling capability, we need to load a dataset large enough to require scrolling into our NoSQL database. This repository contains a file called `countries.json` which contains 245 documents, each with the names of a country. From the root of the repository, run:
 
 ```bash
-chmod +x setup_cloudant.sh
 sh setup_cloudant.sh
 ```
 
