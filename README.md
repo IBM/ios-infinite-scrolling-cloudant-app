@@ -15,13 +15,7 @@ When you have completed this code pattern, you will understand how to:
 
 ## Steps
 
-[![](https://bluemix.net/deploy/button.png)](https://console.bluemix.net/developer/appledevelopment/create-project?starterKit=dc43fe0b-f441-3bcb-9c75-2764ece288ce&defaultLanguage=IOS_SWIFT&env_id=ibm%3Ayp%3Aus-south&tenantNavMode=false&defaultDeploymentToolchain=)
-
-Create the application and database automatically using the button above and jump directly to step 4 below.
-
-**OR**
-
-Configure the local application manually:
+> As an alternative to the steps below, you can [create this project as a starter kit on IBM Cloud](https://bluemix.net/deploy/button.png)](https://console.bluemix.net/developer/appledevelopment/create-project?starterKit=dc43fe0b-f441-3bcb-9c75-2764ece288ce&defaultLanguage=IOS_SWIFT&env_id=ibm%3Ayp%3Aus-south&tenantNavMode=false&defaultDeploymentToolchain=), which automatically provisions required services, and injects service credentials into a custom fork of this pattern. Then, you can skip directly to step 4 below.
 
 1. [Install developer tools](#1-install-developer-tools)
 2. [Install dependencies](#2-install-dependencies)
