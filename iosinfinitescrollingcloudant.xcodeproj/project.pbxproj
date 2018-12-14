@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B04FF4CD8E9F40BDB8C9FCD3 /* .gitignore in Sources */ = {isa = PBXBuildFile; fileRef = 1C07CC2DE1794E518075434E /* .gitignore */; };
-		55347033D63E49D6A6986B91 /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = 0A10469A03E84EBCB9E86B75 /* LICENSE */; };
-		1F9946F22C484EA4A7665B19 /* BMSCredentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF6A2C8C18A1466697FD0ABC /* BMSCredentials.plist */; };
+		7AD369DBBF7E4B5A9BC45270 /* .gitignore in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D703273BB44C19FCAB0DF /* .gitignore */; };
+		2E94F8C4A4B94E6499C9111D /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = DB9747AFB8514E4AB77E948A /* LICENSE */; };
+		ED4E2960201C42DE8A629B2E /* BMSCredentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = A01486ABD9684B04A1C24DCE /* BMSCredentials.plist */; };
 		5E6E385786F79373B9B58FBF /* Pods_iosinfinitescrollingcloudant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1C5BE4A773D6293E096406 /* Pods_iosinfinitescrollingcloudant.framework */; };
 		98EE2C391DABCCBD00B954F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EE2C381DABCCBD00B954F9 /* AppDelegate.swift */; };
 		98EE2C4A1DABCCD100B954F9 /* CloudantItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EE2C401DABCCD100B954F9 /* CloudantItem.swift */; };
@@ -42,9 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1C07CC2DE1794E518075434E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = .gitignore; path = .gitignore; sourceTree = "<group>"; };
-		0A10469A03E84EBCB9E86B75 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LICENSE; path = LICENSE; sourceTree = "<group>"; };
-		BF6A2C8C18A1466697FD0ABC /* BMSCredentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = BMSCredentials.plist; path = BMSCredentials.plist; sourceTree = "<group>"; };
+		5C5D703273BB44C19FCAB0DF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = .gitignore; path = .gitignore; sourceTree = "<group>"; };
+		DB9747AFB8514E4AB77E948A /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LICENSE; path = LICENSE; sourceTree = "<group>"; };
+		A01486ABD9684B04A1C24DCE /* BMSCredentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = BMSCredentials.plist; path = BMSCredentials.plist; sourceTree = "<group>"; };
 		1AFE8C0E5B5FC41FBA4B5EC2 /* Pods-iosinfinitescrollingcloudant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosinfinitescrollingcloudant.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosinfinitescrollingcloudant/Pods-iosinfinitescrollingcloudant.debug.xcconfig"; sourceTree = "<group>"; };
 		555C91A81D0F0731003E84E3 /* iosinfinitescrollingcloudant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iosinfinitescrollingcloudant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98EE2C381DABCCBD00B954F9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "iosinfinitescrollingcloudant/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
@@ -126,7 +126,7 @@
 		555C91AA1D0F0731003E84E3 /* iosinfinitescrollingcloudant */ = {
 			isa = PBXGroup;
 			children = (
-				BF6A2C8C18A1466697FD0ABC /* BMSCredentials.plist */,
+				A01486ABD9684B04A1C24DCE /* BMSCredentials.plist */,
 				E3D187EF202CB90100E41D1D /* CloudantViewModel.swift */,
 				98EE2C381DABCCBD00B954F9 /* AppDelegate.swift */,
 				98EE2C5C1DABE64A00B954F9 /* LaunchScreen.storyboard */,
@@ -283,7 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F9946F22C484EA4A7665B19 /* BMSCredentials.plist in Resources */,
+				ED4E2960201C42DE8A629B2E /* BMSCredentials.plist in Resources */,
 				98EE2C611DABE70400B954F9 /* Main.storyboard in Resources */,
 				98EE2C531DABCD9E00B954F9 /* Assets.xcassets in Resources */,
 				98EE2C5E1DABE64A00B954F9 /* LaunchScreen.storyboard in Resources */,
