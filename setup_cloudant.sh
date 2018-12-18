@@ -1,7 +1,7 @@
 #!/bin/sh
 
 function getCredentialsPath {
-    for p in iosinfinitescrollingcloudant*/ ; do
+    for p in InfiniteScrollingwithCloudantNoSQLforiOS*/ ; do
         p=$(echo "${p%%Test*}")
         p=$(echo "${p%%UI*}")
         p=$(echo "${p%%\.*}")
