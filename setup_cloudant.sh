@@ -1,13 +1,8 @@
 #!/bin/sh
 
 function getCredentialsPath {
-    for p in InfiniteScrollingwithCloudantNoSQLforiOS*/ ; do
-        p=$(echo "${p%%Test*}")
-        p=$(echo "${p%%UI*}")
-        p=$(echo "${p%%\.*}")
-        echo ./$p/BMSCredentials.plist
-        break
-    done
+  # Get relative path to the Cloudant credentials
+  find . -name "BMSCredentials.plist"
 }
 
 CREDENTIALS_PATH=$(getCredentialsPath)
