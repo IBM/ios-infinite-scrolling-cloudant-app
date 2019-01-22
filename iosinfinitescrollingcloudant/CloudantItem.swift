@@ -65,7 +65,7 @@ struct CloudantDoc: Decodable {
 
         id = try values.decode(String.self, forKey: .id)
         rev = try values.decode(String.self, forKey: .rev)
-        value = try values.decode(String.self, forKey: CodingKeys.makeKey(name:  field))
+        value = try values.decode(String.self, forKey: CodingKeys.makeKey(name: field))
     }
 }
 
