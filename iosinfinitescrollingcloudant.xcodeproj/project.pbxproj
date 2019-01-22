@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3CB2835DE6D8492C912E0E19 /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = 020CC8E66C0042CEBA391169 /* LICENSE */; };
-		411AAD95F948454F8C39305A /* .gitignore in Sources */ = {isa = PBXBuildFile; fileRef = 4DB3EB08A4BC4476BBDA4332 /* .gitignore */; };
-		7B6863AC8FA34AFB99BF960A /* BMSCredentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AFAC6250A464AB8BD5A8BA8 /* BMSCredentials.plist */; };
+		CD7F3DF644DD4F599694FCBA /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = F6319900B31B40C5819987B8 /* LICENSE */; };
+		08E2302894D94834A53060BB /* .gitignore in Sources */ = {isa = PBXBuildFile; fileRef = 51440BFB87D6493CAC800023 /* .gitignore */; };
+		D7416262EAEB4332953B8949 /* BMSCredentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65A1FCC1DFFE425D9A5F7417 /* BMSCredentials.plist */; };
 		5E6E385786F79373B9B58FBF /* Pods_iosinfinitescrollingcloudant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1C5BE4A773D6293E096406 /* Pods_iosinfinitescrollingcloudant.framework */; };
 		98EE2C391DABCCBD00B954F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EE2C381DABCCBD00B954F9 /* AppDelegate.swift */; };
 		98EE2C4A1DABCCD100B954F9 /* CloudantItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EE2C401DABCCD100B954F9 /* CloudantItem.swift */; };
@@ -30,37 +30,38 @@
 			containerPortal = 555C91A01D0F0731003E84E3 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 555C91A71D0F0731003E84E3;
-			remoteInfo = "iosinfinitescrollingcloudant";
+			remoteInfo = iosinfinitescrollingcloudant;
 		};
 		E3659B502034C22500601F81 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 555C91A01D0F0731003E84E3 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 555C91A71D0F0731003E84E3;
-			remoteInfo = "iosinfinitescrollingcloudant";
+			remoteInfo = iosinfinitescrollingcloudant;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		020CC8E66C0042CEBA391169 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LICENSE; path = LICENSE; sourceTree = "<group>"; };
-		4DB3EB08A4BC4476BBDA4332 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = .gitignore; path = .gitignore; sourceTree = "<group>"; };
-		4AFAC6250A464AB8BD5A8BA8 /* BMSCredentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = BMSCredentials.plist; path = BMSCredentials.plist; sourceTree = "<group>"; };
+		F6319900B31B40C5819987B8 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LICENSE; path = LICENSE; sourceTree = "<group>"; };
+		51440BFB87D6493CAC800023 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = .gitignore; path = .gitignore; sourceTree = "<group>"; };
+		65A1FCC1DFFE425D9A5F7417 /* BMSCredentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = BMSCredentials.plist; path = BMSCredentials.plist; sourceTree = "<group>"; };
 		1AFE8C0E5B5FC41FBA4B5EC2 /* Pods-iosinfinitescrollingcloudant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosinfinitescrollingcloudant.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosinfinitescrollingcloudant/Pods-iosinfinitescrollingcloudant.debug.xcconfig"; sourceTree = "<group>"; };
-		555C91A81D0F0731003E84E3 /* iosinfinitescrollingcloudant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iosinfinitescrollingcloudant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		98EE2C381DABCCBD00B954F9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "iosinfinitescrollingcloudant/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
-		98EE2C401DABCCD100B954F9 /* CloudantItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CloudantItem.swift; path = "iosinfinitescrollingcloudant/CloudantItem.swift"; sourceTree = SOURCE_ROOT; };
-		98EE2C411DABCCD100B954F9 /* CloudantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CloudantTableViewCell.swift; path = "iosinfinitescrollingcloudant/CloudantTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
-		98EE2C421DABCCD100B954F9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "iosinfinitescrollingcloudant/Info.plist"; sourceTree = SOURCE_ROOT; };
-		98EE2C431DABCCD100B954F9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "iosinfinitescrollingcloudant/ViewController.swift"; sourceTree = SOURCE_ROOT; };
-		98EE2C521DABCD9E00B954F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "iosinfinitescrollingcloudant/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
-		98EE2C5D1DABE64A00B954F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "iosinfinitescrollingcloudant/Base.lproj/LaunchScreen.storyboard"; sourceTree = SOURCE_ROOT; };
-		98EE2C601DABE70400B954F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "iosinfinitescrollingcloudant/Base.lproj/Main.storyboard"; sourceTree = SOURCE_ROOT; };
+		555C91A81D0F0731003E84E3 /* iosinfinitescrollingcloudant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosinfinitescrollingcloudant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		701B3A613A7742209D165A33 /* BMSCredentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BMSCredentials.plist; sourceTree = "<group>"; };
+		98EE2C381DABCCBD00B954F9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = iosinfinitescrollingcloudant/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		98EE2C401DABCCD100B954F9 /* CloudantItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CloudantItem.swift; path = iosinfinitescrollingcloudant/CloudantItem.swift; sourceTree = SOURCE_ROOT; };
+		98EE2C411DABCCD100B954F9 /* CloudantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CloudantTableViewCell.swift; path = iosinfinitescrollingcloudant/CloudantTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		98EE2C421DABCCD100B954F9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = iosinfinitescrollingcloudant/Info.plist; sourceTree = SOURCE_ROOT; };
+		98EE2C431DABCCD100B954F9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = iosinfinitescrollingcloudant/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		98EE2C521DABCD9E00B954F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = iosinfinitescrollingcloudant/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		98EE2C5D1DABE64A00B954F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = iosinfinitescrollingcloudant/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		98EE2C601DABE70400B954F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = iosinfinitescrollingcloudant/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		AC3033191E38020600D43D5B /* ApplicationError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationError.swift; sourceTree = "<group>"; };
 		D08B9A7496D4B743BDD8AACD /* Pods-iosinfinitescrollingcloudant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosinfinitescrollingcloudant.release.xcconfig"; path = "Pods/Target Support Files/Pods-iosinfinitescrollingcloudant/Pods-iosinfinitescrollingcloudant.release.xcconfig"; sourceTree = "<group>"; };
-		E3659B3D2034C21900601F81 /* iosinfinitescrollingcloudantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iosinfinitescrollingcloudantUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3659B3D2034C21900601F81 /* iosinfinitescrollingcloudantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosinfinitescrollingcloudantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3659B3F2034C21900601F81 /* iosinfinitescrollingcloudantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosinfinitescrollingcloudantUITests.swift; sourceTree = "<group>"; };
 		E3659B412034C21900601F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E3659B4B2034C22400601F81 /* iosinfinitescrollingcloudantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iosinfinitescrollingcloudantTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3659B4B2034C22400601F81 /* iosinfinitescrollingcloudantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosinfinitescrollingcloudantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3659B4D2034C22500601F81 /* iosinfinitescrollingcloudantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosinfinitescrollingcloudantTests.swift; sourceTree = "<group>"; };
 		E3659B4F2034C22500601F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3D187EF202CB90100E41D1D /* CloudantViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudantViewModel.swift; sourceTree = "<group>"; };
@@ -126,7 +127,7 @@
 		555C91AA1D0F0731003E84E3 /* iosinfinitescrollingcloudant */ = {
 			isa = PBXGroup;
 			children = (
-				4AFAC6250A464AB8BD5A8BA8 /* BMSCredentials.plist */,
+				65A1FCC1DFFE425D9A5F7417 /* BMSCredentials.plist */,
 				E3D187EF202CB90100E41D1D /* CloudantViewModel.swift */,
 				98EE2C381DABCCBD00B954F9 /* AppDelegate.swift */,
 				98EE2C5C1DABE64A00B954F9 /* LaunchScreen.storyboard */,
@@ -138,7 +139,7 @@
 				98EE2C421DABCCD100B954F9 /* Info.plist */,
 				98EE2C431DABCCD100B954F9 /* ViewController.swift */,
 			);
-			path = "iosinfinitescrollingcloudant";
+			path = iosinfinitescrollingcloudant;
 			sourceTree = "<group>";
 		};
 		A4160B77D037FA5B9F790955 /* Pods */ = {
@@ -156,7 +157,7 @@
 				E3659B3F2034C21900601F81 /* iosinfinitescrollingcloudantUITests.swift */,
 				E3659B412034C21900601F81 /* Info.plist */,
 			);
-			path = "iosinfinitescrollingcloudantUITests";
+			path = iosinfinitescrollingcloudantUITests;
 			sourceTree = "<group>";
 		};
 		E3659B4C2034C22500601F81 /* iosinfinitescrollingcloudantTests */ = {
@@ -165,7 +166,7 @@
 				E3659B4D2034C22500601F81 /* iosinfinitescrollingcloudantTests.swift */,
 				E3659B4F2034C22500601F81 /* Info.plist */,
 			);
-			path = "iosinfinitescrollingcloudantTests";
+			path = iosinfinitescrollingcloudantTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,14 +181,13 @@
 				555C91A51D0F0731003E84E3 /* Frameworks */,
 				555C91A61D0F0731003E84E3 /* Resources */,
 				7A8D7333F6565346A25DF969 /* [CP] Embed Pods Frameworks */,
-				410ABB49FD048590F6C8D98F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "iosinfinitescrollingcloudant";
-			productName = "iosinfinitescrollingcloudant";
+			name = iosinfinitescrollingcloudant;
+			productName = iosinfinitescrollingcloudant;
 			productReference = 555C91A81D0F0731003E84E3 /* iosinfinitescrollingcloudant.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -204,8 +204,8 @@
 			dependencies = (
 				E3659B432034C21900601F81 /* PBXTargetDependency */,
 			);
-			name = "iosinfinitescrollingcloudantUITests";
-			productName = "iosinfinitescrollingcloudantUITests";
+			name = iosinfinitescrollingcloudantUITests;
+			productName = iosinfinitescrollingcloudantUITests;
 			productReference = E3659B3D2034C21900601F81 /* iosinfinitescrollingcloudantUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
@@ -222,8 +222,8 @@
 			dependencies = (
 				E3659B512034C22500601F81 /* PBXTargetDependency */,
 			);
-			name = "iosinfinitescrollingcloudantTests";
-			productName = "iosinfinitescrollingcloudantTests";
+			name = iosinfinitescrollingcloudantTests;
+			productName = iosinfinitescrollingcloudantTests;
 			productReference = E3659B4B2034C22400601F81 /* iosinfinitescrollingcloudantTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -234,12 +234,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = IBM;
 				TargetAttributes = {
 					555C91A71D0F0731003E84E3 = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0920;
+						LastSwiftMigration = 1010;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -248,6 +248,7 @@
 					};
 					E3659B3C2034C21900601F81 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 555C91A71D0F0731003E84E3;
 					};
@@ -283,7 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B6863AC8FA34AFB99BF960A /* BMSCredentials.plist in Resources */,
+				D7416262EAEB4332953B8949 /* BMSCredentials.plist in Resources */,
 				98EE2C611DABE70400B954F9 /* Main.storyboard in Resources */,
 				98EE2C531DABCD9E00B954F9 /* Assets.xcassets in Resources */,
 				98EE2C5E1DABE64A00B954F9 /* LaunchScreen.storyboard in Resources */,
@@ -307,21 +308,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		410ABB49FD048590F6C8D98F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iosinfinitescrollingcloudant/Pods-iosinfinitescrollingcloudant-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7A8D7333F6565346A25DF969 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -331,12 +317,14 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-iosinfinitescrollingcloudant/Pods-iosinfinitescrollingcloudant-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BMSAnalyticsAPI/BMSAnalyticsAPI.framework",
 				"${BUILT_PRODUCTS_DIR}/BMSCore/BMSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftCloudant/SwiftCloudant.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftSpinner/SwiftSpinner.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMSAnalyticsAPI.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftCloudant.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSpinner.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,12 +430,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -498,12 +488,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -543,10 +535,9 @@
 				INFOPLIST_FILE = "$(SRCROOT)/iosinfinitescrollingcloudant/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.iosinfinitescrollingcloudant";
-				PRODUCT_NAME = "iosinfinitescrollingcloudant";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iosinfinitescrollingcloudant;
+				PRODUCT_NAME = iosinfinitescrollingcloudant;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -558,10 +549,9 @@
 				INFOPLIST_FILE = "$(SRCROOT)/iosinfinitescrollingcloudant/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.iosinfinitescrollingcloudant";
-				PRODUCT_NAME = "iosinfinitescrollingcloudant";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iosinfinitescrollingcloudant;
+				PRODUCT_NAME = iosinfinitescrollingcloudant;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -575,15 +565,15 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "iosinfinitescrollingcloudantUITests/Info.plist";
+				INFOPLIST_FILE = iosinfinitescrollingcloudantUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.BluePic-iOS.iosinfinitescrollingcloudantUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "iosinfinitescrollingcloudant";
+				TEST_TARGET_NAME = iosinfinitescrollingcloudant;
 			};
 			name = Debug;
 		};
@@ -597,14 +587,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "iosinfinitescrollingcloudantUITests/Info.plist";
+				INFOPLIST_FILE = iosinfinitescrollingcloudantUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.BluePic-iOS.iosinfinitescrollingcloudantUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "iosinfinitescrollingcloudant";
+				TEST_TARGET_NAME = iosinfinitescrollingcloudant;
 			};
 			name = Release;
 		};
@@ -619,7 +609,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "iosinfinitescrollingcloudantTests/Info.plist";
+				INFOPLIST_FILE = iosinfinitescrollingcloudantTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.BluePic-iOS.iosinfinitescrollingcloudantTests";

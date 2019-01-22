@@ -37,7 +37,7 @@ class ViewController: UITableViewController {
         // Register observer
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(didBecomeActive),
-                                               name: .UIApplicationDidBecomeActive,
+                                               name: UIApplication.didBecomeActiveNotification,
                                                object: nil)
 
         // Set up Cloudant Driver
