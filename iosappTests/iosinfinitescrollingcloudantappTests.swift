@@ -8,7 +8,7 @@
 
 import XCTest
 
-class iosinfinitescrollingcloudantTests: XCTestCase {
+class iosinfinitescrollingcloudantappTests: XCTestCase {
 
     override func setUp() {
         super.setUp()
