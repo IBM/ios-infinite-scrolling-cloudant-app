@@ -19,6 +19,7 @@
 		FB969A082493F68200D68912 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EE2C381DABCCBD00B954F9 /* AppDelegate.swift */; };
 		FB969A092493F68200D68912 /* CloudantItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EE2C401DABCCD100B954F9 /* CloudantItem.swift */; };
 		FB969A0A2493F68200D68912 /* CloudantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EE2C411DABCCD100B954F9 /* CloudantTableViewCell.swift */; };
+		FB969A0D2497EA9B00D68912 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98EE2C521DABCD9E00B954F9 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +43,7 @@
 		1AFE8C0E5B5FC41FBA4B5EC2 /* Pods-iosinfinitescrollingcloudant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosinfinitescrollingcloudant.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosinfinitescrollingcloudant/Pods-iosinfinitescrollingcloudant.debug.xcconfig"; sourceTree = "<group>"; };
 		25AABE4E16EB0C40DEC2E88C /* Pods-iosinfinitescrollingcloudantapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosinfinitescrollingcloudantapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-iosinfinitescrollingcloudantapp/Pods-iosinfinitescrollingcloudantapp.release.xcconfig"; sourceTree = "<group>"; };
 		426F62663749476299C11B27 /* BMSCredentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BMSCredentials.plist; sourceTree = "<group>"; };
-		555C91A81D0F0731003E84E3 /* iosinfinitescrollingcloudantappapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosinfinitescrollingcloudantappapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		555C91A81D0F0731003E84E3 /* iosinfinitescrollingcloudantapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosinfinitescrollingcloudantapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98EE2C381DABCCBD00B954F9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = iosapp/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		98EE2C401DABCCD100B954F9 /* CloudantItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CloudantItem.swift; path = iosapp/CloudantItem.swift; sourceTree = SOURCE_ROOT; };
 		98EE2C411DABCCD100B954F9 /* CloudantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CloudantTableViewCell.swift; path = iosapp/CloudantTableViewCell.swift; sourceTree = SOURCE_ROOT; };
@@ -113,7 +114,7 @@
 		555C91A91D0F0731003E84E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				555C91A81D0F0731003E84E3 /* iosinfinitescrollingcloudantappapp.app */,
+				555C91A81D0F0731003E84E3 /* iosinfinitescrollingcloudantapp.app */,
 				E3659B3D2034C21900601F81 /* iosinfinitescrollingcloudantappUITests.xctest */,
 				E3659B4B2034C22400601F81 /* iosinfinitescrollingcloudantappTests.xctest */,
 			);
@@ -186,7 +187,7 @@
 			);
 			name = iosinfinitescrollingcloudantapp;
 			productName = iosinfinitescrollingcloudant;
-			productReference = 555C91A81D0F0731003E84E3 /* iosinfinitescrollingcloudantappapp.app */;
+			productReference = 555C91A81D0F0731003E84E3 /* iosinfinitescrollingcloudantapp.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E3659B3C2034C21900601F81 /* iosinfinitescrollingcloudantappUITests */ = {
@@ -282,6 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB969A0D2497EA9B00D68912 /* Assets.xcassets in Resources */,
 				21DE3D0915BD449EA1838CF5 /* BMSCredentials.plist in Resources */,
 				98EE2C611DABE70400B954F9 /* Main.storyboard in Resources */,
 				98EE2C5E1DABE64A00B954F9 /* LaunchScreen.storyboard in Resources */,
@@ -535,7 +537,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iosinfinitescrollingcloudantapp;
-				PRODUCT_NAME = iosinfinitescrollingcloudantappapp;
+				PRODUCT_NAME = iosinfinitescrollingcloudantapp;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -549,7 +551,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iosinfinitescrollingcloudantapp;
-				PRODUCT_NAME = iosinfinitescrollingcloudantappapp;
+				PRODUCT_NAME = iosinfinitescrollingcloudantapp;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
