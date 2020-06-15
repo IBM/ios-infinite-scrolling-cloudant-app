@@ -79,11 +79,16 @@ class ViewController: UITableViewController {
                 showError(.missingCredentials)
                 return
         }
+        
+        guard let cloudantConfig = credentials["cloudant"] as? NSDictionary else {
+            showError(.missingCredentials)
+            return
+        }
 
         // Retrieve credentials
-        guard let userId = credentials["cloudantUsername"] as? String, !userId.isEmpty,
-            let password = credentials["cloudantPassword"] as? String, !password.isEmpty,
-            let url = credentials["cloudantUrl"] as? String, !url.isEmpty, let cloudantURL = URL(string: url) else {
+        guard let userId = cloudantConfig["username"] as? String, !userId.isEmpty,
+            let password = cloudantConfig["password"] as? String, !password.isEmpty,
+            let url = cloudantConfig["url"] as? String, !url.isEmpty, let cloudantURL = URL(string: url) else {
                 showError(.missingCredentials)
                 return
         }
