@@ -123,17 +123,17 @@
 		555C91AA1D0F0731003E84E3 /* iosapp */ = {
 			isa = PBXGroup;
 			children = (
-				426F62663749476299C11B27 /* BMSCredentials.plist */,
-				E3D187EF202CB90100E41D1D /* CloudantViewModel.swift */,
-				98EE2C381DABCCBD00B954F9 /* AppDelegate.swift */,
 				98EE2C5C1DABE64A00B954F9 /* LaunchScreen.storyboard */,
 				98EE2C5F1DABE70400B954F9 /* Main.storyboard */,
-				AC3033191E38020600D43D5B /* ApplicationError.swift */,
+				98EE2C381DABCCBD00B954F9 /* AppDelegate.swift */,
+				98EE2C431DABCCD100B954F9 /* ViewController.swift */,
+				E3D187EF202CB90100E41D1D /* CloudantViewModel.swift */,
 				98EE2C401DABCCD100B954F9 /* CloudantItem.swift */,
 				98EE2C411DABCCD100B954F9 /* CloudantTableViewCell.swift */,
-				98EE2C521DABCD9E00B954F9 /* Assets.xcassets */,
+				AC3033191E38020600D43D5B /* ApplicationError.swift */,
+				426F62663749476299C11B27 /* BMSCredentials.plist */,
 				98EE2C421DABCCD100B954F9 /* Info.plist */,
-				98EE2C431DABCCD100B954F9 /* ViewController.swift */,
+				98EE2C521DABCD9E00B954F9 /* Assets.xcassets */,
 			);
 			path = iosapp;
 			sourceTree = "<group>";
