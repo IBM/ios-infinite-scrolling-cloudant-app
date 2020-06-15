@@ -88,7 +88,7 @@ class ViewController: UITableViewController {
         // Retrieve credentials
         guard let userId = cloudantConfig["username"] as? String, !userId.isEmpty,
             let password = cloudantConfig["password"] as? String, !password.isEmpty,
-            let url = credentials["url"] as? String, !url.isEmpty, let cloudantURL = URL(string: url) else {
+            let url = cloudantConfig["url"] as? String, !url.isEmpty, let cloudantURL = URL(string: url) else {
                 showError(.missingCredentials)
                 return
         }
